@@ -1,0 +1,66 @@
+html, body{
+    padding:0px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4C686D;
+    display: block;
+    position: sticky;
+    top: 0;
+    height: 42px;
+    padding-left: 148px;
+    
+}
+
+li{
+    float: left;
+    
+    
+    
+}
+
+li a{
+    display: block;
+    color: aliceblue;
+    padding: 6px 30px;
+    text-decoration: none;
+    padding-left: 44px;
+    margin:auto;
+
+    
+    
+}
+
+li a:hover{
+    background-color: #3B4F53;
+}
+
+.searchbox{
+    margin-top: 19px;
+    padding-left: 70%;
+    border: black;
+    border-radius: 10px;
+
+}
+
+.midhead{
+    width:auto;
+    background-color: #454545;
+    height: 101px;
+    
+
+}
+
+.dropdown{
+    width:auto;
+    background-color: #4C686D;
+    height: 42px;
+    padding-left: 187px;
+}
