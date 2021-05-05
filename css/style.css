@@ -71,7 +71,7 @@ li a:hover{
 }
 
 .hero{
-    background-image: url(shyboy_shirt.png);
+    background-image: url(../img/shyboy_shirt.png);
     width:100%;
     height:100vh;
     background-size: cover;
