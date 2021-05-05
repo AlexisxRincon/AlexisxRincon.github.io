@@ -4,7 +4,7 @@ html, body{
 
 }
 
-ul {
+.navbar {
     list-style-type: none;
     width: auto;
     margin: 0;
@@ -63,4 +63,21 @@ li a:hover{
     background-color: #4C686D;
     height: 42px;
     padding-left: 187px;
+}
+
+.hand{
+    width:30px;
+
+}
+
+.hero{
+    background-image: url(shyboy_shirt.png);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+
+.name{
+    margin-top: 6px;
+
 }
