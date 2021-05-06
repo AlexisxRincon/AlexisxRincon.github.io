@@ -1,6 +1,8 @@
 html, body{
-    padding:0px;
-
+    padding:0 auto;
+    margin:0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.6ch;
 
 }
 
@@ -14,9 +16,10 @@ html, body{
     display: block;
     position: sticky;
     top: 0;
-    height: 42px;
-    padding-left: 148px;
+    padding-left: 40px;
+    height: 70px;
     
+
 }
 
 li{
@@ -28,56 +31,35 @@ li{
 
 li a{
     display: block;
-    color: aliceblue;
+    color: white;
     padding: 6px 30px;
     text-decoration: none;
-    padding-left: 44px;
+    padding-left: 15px;
     margin:auto;
-
-    
-    
-}
-
-li a:hover{
-    background-color: #3B4F53;
-}
-
-.searchbox{
-    margin-top: 19px;
-    padding-left: 70%;
-    border: black;
-    border-radius: 10px;
-
-}
-
-.midhead{
-    width:auto;
-    background-color: #454545;
-    height: 101px;
+    padding-top: 25px;
     
 
 }
 
-.dropdown{
-    width:auto;
-    background-color: #4C686D;
-    height: 42px;
-    padding-left: 187px;
-}
-
-.hand{
-    width:30px;
-
-}
 
 .hero{
-    background-image: url(../img/shyboy_shirt.png);
+    background-image: url(../img/blackt.png);
     width:100%;
-    height:100vh;
+    height:700px;
     background-size: cover;
+    padding-left: 40%;
 }
 
 .name{
-    margin-top: 6px;
-
+    color: yellow;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4ch;
+    padding-right:237px;
+    margin-top: -11px;
+    
 }
+
+.icon1{
+    padding-left: 200px;
+}
+
