@@ -158,3 +158,24 @@ svg:hover {
 
 }
 
+.blueone{
+    width:30%;
+    height: 600px;
+    margin: 10px 10px;
+    background-size: contain;
+    margin-right: -5px;
+    
+
+}
+
+.bluetwo{
+    width: 67.7%;
+    height: 600px;
+    margin: 10px 10px;
+    float: right;
+    background-size: cover;
+    margin-left: -5px;
+}
+
+
+
