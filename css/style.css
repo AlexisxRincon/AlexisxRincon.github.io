@@ -122,30 +122,39 @@ svg:hover {
 
 .shopnew{
     margin-top: 50px;
-    margin-left: 611px;
+    margin-left: 0px;
     padding: 15px ;
     background-color:transparent;
     border-radius: 40px;
     border-color: yellow;
     font-family: 'Arimo', sans-serif;
-    font-size: 2ch;
+    font-size: .6ch;
     letter-spacing: 1.5px;
     border: 2px solid yellow;
     
 }
 
-.shopall a{
+.shopnew a{
     text-decoration: none;
     color: yellow;
-    padding: 15px 6px;
+    padding: 300px 13px;
     
     
 }
-.shopall a:hover{
+.shopnew a:hover{
     color:black;
 }
 
-.shopall:hover{
+.shopnew:hover{
     background-color: yellow;
+}
+
+.shirttwo{
+    background-image: url(../img/bluetee.png);
+    width:100%;
+    height:670px;
+    background-size: cover;
+
+
 }
 
