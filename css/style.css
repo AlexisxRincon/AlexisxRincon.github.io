@@ -3,6 +3,7 @@ html, body{
     margin:0;
     font-family: 'Manrope', sans-serif;
     font-size: 1.6ch;
+    
 
 }
 
@@ -18,6 +19,7 @@ html, body{
     top: 0;
     padding-left: 40px;
     height: 70px;
+    border-bottom: black 10px;
     
 
 }
@@ -41,25 +43,109 @@ li a{
 
 }
 
+li a:hover{
+    color:yellow;
+}
+
+svg:hover {
+    fill:yellow;
+}
+
 
 .hero{
     background-image: url(../img/blackt.png);
     width:100%;
-    height:700px;
+    height:670px;
     background-size: cover;
-    padding-left: 40%;
+
+
 }
 
 .name{
     color: yellow;
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 4ch;
+    font-family: 'Righteous', cursive;
+    font-size: 6ch;
     padding-right:237px;
-    margin-top: -11px;
+    margin-top: -20px;
     
 }
 
 .icon1{
     padding-left: 200px;
+}
+
+.icon2{
+    margin-top: -3px;
+}
+
+.shopall{
+    margin-top: 560px;
+    margin-left: 611px;
+    padding: 15px ;
+    background-color:transparent;
+    border-radius: 40px;
+    border-color: yellow;
+    font-family: 'Arimo', sans-serif;
+    font-size: 2ch;
+    letter-spacing: 1.5px;
+    border: 2px solid yellow;
+    
+}
+
+.shopall a{
+    text-decoration: none;
+    color: yellow;
+    padding: 15px 6px;
+    
+    
+}
+.shopall a:hover{
+    color:black;
+}
+
+.shopall:hover{
+    background-color: yellow;
+}
+.newarrivals{
+    background-color: black;
+    margin: 0;
+    width:auto;
+    height:200px;
+    font-family: 'Arimo', sans-serif;
+    color: yellow;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 5ch;
+    padding-top: 100px
+  
+}
+
+.shopnew{
+    margin-top: 50px;
+    margin-left: 611px;
+    padding: 15px ;
+    background-color:transparent;
+    border-radius: 40px;
+    border-color: yellow;
+    font-family: 'Arimo', sans-serif;
+    font-size: 2ch;
+    letter-spacing: 1.5px;
+    border: 2px solid yellow;
+    
+}
+
+.shopall a{
+    text-decoration: none;
+    color: yellow;
+    padding: 15px 6px;
+    
+    
+}
+.shopall a:hover{
+    color:black;
+}
+
+.shopall:hover{
+    background-color: yellow;
 }
 
