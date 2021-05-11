@@ -18,7 +18,6 @@ html, body{
     top: 0;
     padding-left: 40px;
     height: 70px;
-    border-bottom: black 10px;
 }
 
 
@@ -242,4 +241,248 @@ color: #4C686D
 {
     padding-left: 40px; 
     padding-top: 24px;
+}
+
+.logoimg{
+    width:100px
+}
+
+.logo{
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.logoli{
+    padding-left:93px;
+}
+
+.allstyles{
+    width: auto;
+    font-family: 'Arimo', sans-serif;  
+    font-size: 6ch;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+
+.styletypelist{
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    display: block;
+    padding-left: 85px;
+    height: 50px;
+}
+
+.aslist{
+    text-decoration: none;
+    width:auto;
+    
+    padding-left: 50px;
+    
+}
+.aslist a{
+    color: black;
+}
+
+.aslist a:hover{
+    color:rgb(236, 193, 2) ;
+}
+
+.filter a{
+    color: black;
+    margin-left: 300px;
+
+    
+}
+.filter a:hover{
+    color:rgb(236, 193, 2) ;
+}
+
+.sort a{
+    color: black;
+    margin-left: 50px;
+    
+
+    
+}
+
+.sort a:hover{
+    color:rgb(236, 193, 2) ;
+}
+
+.clothes{
+    list-style-type: none;
+    width: auto;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    margin-left: 60px;
+    margin-top: 100px
+}
+
+.lineone{
+    margin-left: 2px
+}
+
+.cone{
+    width:325px;
+    height: 425px;
+}
+
+.description{
+    list-style-type: none;
+    width: auto;
+    margin-top: -30px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    padding-left: 68px;
+    margin-bottom: 100px;
+}
+
+.wt{
+    margin-left: 70px;  
+}
+
+.wt  a{
+    color: black;
+}
+
+.wt a:hover{
+    color: gray;
+}
+
+.bh{
+    margin-left: 125px;
+}
+
+.bh  a{
+    color: black;
+}
+
+.bh a:hover{
+    color: gray;
+}
+
+.hat{
+    margin-left: 130px;
+}
+
+.hat  a{
+    color: black;
+}
+
+.hat a:hover{
+    color: gray;
+}
+
+.gp{
+    margin-left: 155px;
+}
+
+.gp  a{
+    color: black;
+}
+
+.gp a:hover{
+    color: gray;
+}
+
+.price1{
+    margin-left: 130px;
+    margin-top: -20px
+}
+
+.price1  a{
+    color: black;
+}
+
+.price1 a:hover{
+    color: gray;
+}
+
+.price2{
+    margin-left: 265px;
+    margin-top: -20px
+}
+
+.price2  a{
+    color: black;
+}
+
+.price2 a:hover{
+    color: gray;
+}
+
+.price3{
+    margin-left: 260px;
+    margin-top: -20px
+}
+
+.price3  a{
+    color: black;
+}
+
+.price3 a:hover{
+    color: gray;
+}
+
+.price4{
+    margin-left: 270px;
+    margin-top: -20px
+}
+
+.price4  a{
+    color: black;
+}
+
+.price4 a:hover{
+    color: gray;
+}
+
+.load{
+    width:auto;
+    font-family: 'Arimo', sans-serif;
+    color: #4C686D;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 5ch;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+
+.loadmore{
+    margin-left: 0px;
+    padding: 15px ;
+    background-color:transparent;
+    border-radius: 40px;
+    border-color: #4C686D;
+    font-family: 'Arimo', sans-serif;
+    font-size: .6ch;
+    letter-spacing: 1.5px;
+    border: 2px solid #4C686D;   
+}
+
+
+.loadmore a{
+    text-decoration: none;
+    color: #4C686D;
+    padding: 300px 13px;   
+}
+
+
+.loadmore a:hover{
+    color:black;
+}
+
+.loadmore:hover{
+    background-color: #4C686D;
 }
