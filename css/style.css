@@ -6,6 +6,7 @@ html, body{
 }
 
 
+/* everything in nav bar */
 .navbar {
     list-style-type: none;
     width: auto;
@@ -20,14 +21,12 @@ html, body{
     height: 70px;
 }
 
-
 li{
     float: left;
     
     
     
 }
-
 
 li a{
     display: block;
@@ -39,24 +38,30 @@ li a{
     padding-top: 25px;
 }
 
-
 li a:hover{
     color:yellow;
 }
-
 
 svg:hover {
     fill:yellow;
 }
 
+.icon1{
+    padding-left: 200px;
+}
 
+.icon2{
+    margin-top: -3px;
+}
+
+
+/* All hero section items */
 .hero{
     background-image: url(../img/blackt.png);
     width:100%;
     height:670px;
     background-size: cover;
 }
-
 
 .name{
     color: yellow;
@@ -65,18 +70,6 @@ svg:hover {
     padding-right:237px;
     margin-top: -20px;   
 }
-
-
-.icon1{
-    padding-left: 200px;
-}
-
-
-.icon2{
-    margin-top: -3px;
-}
-
-
 
 .shopall{
     margin-top: 560px;
@@ -91,24 +84,22 @@ svg:hover {
     border: 2px solid yellow;  
 }
 
-
 .shopall a{
     text-decoration: none;
     color: yellow;
     padding: 15px 6px; 
 }
 
-
 .shopall a:hover{
     color:black;
 }
-
 
 .shopall:hover{
     background-color: yellow;
 }
 
 
+/* Everything in new arrivals section */
 .newarrivals{
     background-color: black;
     margin: 0;
@@ -121,7 +112,6 @@ svg:hover {
     font-size: 5ch;
     padding-top: 60px
 }
-
 
 .shopnew{
     margin-top: 50px;
@@ -136,13 +126,12 @@ svg:hover {
     text-align: center; 
 }
 
-
 .shopnew a{
     text-decoration: none;
     color: yellow;
-    padding: 15px 20px;   
-}
+    padding: 30px 0px;
 
+}
 
 .shopnew a:hover{
     color:black;
@@ -152,6 +141,8 @@ svg:hover {
     background-color: yellow;
 }
 
+
+/* large center image under new arrivals */
 .shirttwo{
     background-image: url(../img/bluetee.png);
     width:100%;
@@ -160,6 +151,7 @@ svg:hover {
 }
 
 
+/* three lined up clothing images */
 .blacktee{
     width:32%;
     height: 600px;
@@ -167,7 +159,6 @@ svg:hover {
     background-size: contain;
     margin-right: -5px;
 }
-
 
 .blackhoodie{
     width: 33%;
@@ -177,7 +168,6 @@ svg:hover {
     background-size: cover;
     margin-right: -5;
 }
-
 
 .oversized{
     width: 30%;
@@ -189,11 +179,13 @@ svg:hover {
 }
 
 
+/* soundcloud section */
 .qul{
     margin: 0px 400px;
 }
 
 
+/* Everything in footer section */
 .footer{
     list-style-type: none;
     width: auto;
@@ -210,41 +202,38 @@ svg:hover {
     padding-top: 33px;
 }
 
-
 .foottext{
     font-family: 'Arimo', sans-serif;  
     font-size: 2ch;  
 }
 
-
 .foottext a:hover{
 color: #4C686D
 }
 
-
 .insta
 {
-    padding-left: 385px; 
-    
+    padding-left: 385px;   
 }
 
-
-.twitter
-{
-     
-    
-}
-
-
-.fb
-{
-
+.svgf:hover:hover {
+    fill:#4C686D
 }
 
 .logoimg{
     width:100px
 }
 
+
+
+
+
+/* Start of Shopall page */
+
+
+
+
+/* line of logos */
 .logo{
     list-style-type: none;
     overflow: hidden;
@@ -257,6 +246,8 @@ color: #4C686D
     padding-left:93px;
 }
 
+
+/* All styles along with selection bar */
 .allstyles{
     width: auto;
     font-family: 'Arimo', sans-serif;  
@@ -265,14 +256,12 @@ color: #4C686D
     padding-left: 150px;
 }
 
-
 .styletypelist{
     list-style-type: none;
     width: auto;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
     display: block;
     padding-left: 85px;
     height: 50px;
@@ -280,10 +269,8 @@ color: #4C686D
 
 .aslist{
     text-decoration: none;
-    width:auto;
-    
-    padding-left: 50px;
-    
+    width:auto;   
+    padding-left: 50px;   
 }
 .aslist a{
     color: black;
@@ -295,9 +282,7 @@ color: #4C686D
 
 .filter a{
     color: black;
-    margin-left: 300px;
-
-    
+    margin-left: 300px;   
 }
 .filter a:hover{
     color:rgb(236, 193, 2) ;
@@ -315,6 +300,8 @@ color: #4C686D
     color:rgb(236, 193, 2) ;
 }
 
+
+/* clothing items and descriptions */
 .clothes{
     list-style-type: none;
     width: auto;
@@ -445,6 +432,8 @@ color: #4C686D
     color: gray;
 }
 
+
+/* load more button */
 .load{
     width:auto;
     font-family: 'Arimo', sans-serif;
@@ -486,6 +475,15 @@ color: #4C686D
     background-color: #4C686D;
 }
 
+
+
+
+/* Start of Contact Page */
+
+
+
+
+/* Contact Us text along with form */
 .contactus{
     width: auto;
     font-family: 'Arimo', sans-serif;  
@@ -523,3 +521,11 @@ input[type=text], select, textarea {
 
     padding: 20px;
   }
+
+
+  /* Map section */
+  .map{
+      margin: 30px 370px;
+
+  }
+
